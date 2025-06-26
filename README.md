@@ -33,7 +33,7 @@ Key Columns Include:
 - **transaction_id**: Unique identifier for each transaction
 - **timestamp**: Date and time of the transaction
 - **transaction_type**: Type of UPI transaction (e.g., P2P, P2M)
-- **merchant_category**: Category of the merchant (e.g., e-commerce, utilities)
+- **merchant_category**: Category of the merchant
 - **amount_inr**: Transaction amount in Indian Rupees
 - **transaction_status**: Whether the transaction succeeded or failed
 - **sender_age_group & receiver_age_group**: Age group classifications
@@ -135,14 +135,14 @@ ORDER BY fraud_rate DESC;
 - Demographic Patterns
   - Age groups 25–34 and 35–44 contribute the highest transaction value.
   - Different device types are preferred by different age groups.
-  - Key merchant categories (e.g., e-commerce, utilities) drive the most spend.
+  - Key merchant categories like shopping and groceries drive the most spend.
 - Bank & Regional Analysis
   - Certain banks dominate UPI usage as senders/receivers.
-  - States like Maharastra, Uttar Pradesh, Karnataka show higher volume and value      of transactions.
+  - States like Maharastra, Uttar Pradesh, Karnataka show higher volume and value of transactions.
 - Fraud Insights
   - Fraud is present in a small but important share of transactions.
   - Some banks, states, and merchant categories show higher fraud rates.
-  - Fraud likelihood increases with transaction amount and varies by network type      and age group.
+  - Fraud likelihood increases with transaction amount and varies by network type and age group.
  
 ## Conclusion
 This project highlights key patterns in UPI usage and fraud. It helps identify high-risk areas like certain banks, networks, or age groups, and gives insight into user behavior such as spending trends and transaction habits.
